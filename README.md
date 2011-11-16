@@ -5,39 +5,39 @@ This JS script grabs all albums and displays them. When you click on an album it
 How to Use:
 -----------
 <ol>
-<li>Create new facebook app. (https://developers.facebook.com/apps)</li>
+	<li>Create new facebook app. (https://developers.facebook.com/apps)</li>
+	<li>Make sure you include the lightbox js file and css file</li>
+	<li>Make sure you include the facebook JS SDK file</li>
+	<li>Make sure you include the Facebook_Photo_Gallery_Widget JS file</li>
+	<li>Include a div or any other html tag with the id "fb_gallery"</li>
+	<li>Set custom attribute app_id=""</li>
+	<li>Set custom attribute page_id=""</li>
 </ol>
-2) Make sure you include the lightbox js file and css file
-3) Make sure you include the facebook JS SDK file
-4) Make sure you include the Facebook_Photo_Gallery_Widget JS file
-5) Include a div or any other html tag with the id "fb_gallery"
-6) Set custom attribute app_id=""
-7) Set custom attribute page_id=""
 
 
 JavaScript Files to be included (Steps 2 - 4):
 ----------------------------------------------
-<code>
-<!-- Load jQuery -->
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+<pre>
+	<!-- Load jQuery -->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
 
-<!-- Load LightBox - Used by Facebook Photo Gallery Widget -->
-<script type="text/javascript" src="js/jquery.lightbox-0.5.js"></script>
+	<!-- Load LightBox - Used by Facebook Photo Gallery Widget -->
+	<script type="text/javascript" src="js/jquery.lightbox-0.5.js"></script>
 
-<link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" media="screen" />
 
-<!-- Load Facebook JS SDK - Used by Facebook Photo Gallery Widget -->
-<script src="http://connect.facebook.net/en_US/all.js"></script>
+	<!-- Load Facebook JS SDK - Used by Facebook Photo Gallery Widget -->
+	<script src="http://connect.facebook.net/en_US/all.js"></script>
 
-<!-- Load Facebook Photo Gallery Widget -->
-<script src="/js/fb_gallery.js"></script>
-</code>
+	<!-- Load Facebook Photo Gallery Widget -->
+	<script src="/js/fb_gallery.js"></script>
+</pre>
 
 Include a Div where you want the gallery (Steps 5 - 7):
 ------------------------------------------------------
-<code>
-<div id="fb_gallery" app_id="" page_id=""></div>
-</code>
+<pre>
+	<div id="fb_gallery" app_id="" page_id=""></div>
+</pre>
 
 Notes:
 ------

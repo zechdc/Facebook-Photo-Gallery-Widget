@@ -1,9 +1,9 @@
 Description:
-==========
+============
 This JS script grabs all albums and displays them. When you click on an album it shows the photos in that album. If you click on a photo it brings up a lightbox. It is 100% jQuery. 
 
 How to Use:
-----------
+-----------
 1) Create new facebook app. (https://developers.facebook.com/apps)
 2) Make sure you include the lightbox js file and css file
 3) Make sure you include the facebook JS SDK file
@@ -14,7 +14,7 @@ How to Use:
 
 
 JavaScript Files to be included (Steps 2 - 4):
-----------
+----------------------------------------------
 <!-- Load jQuery -->
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
 
@@ -29,12 +29,12 @@ JavaScript Files to be included (Steps 2 - 4):
 <!-- Load Facebook Photo Gallery Widget -->
 <script src="/js/fb_gallery.js"></script>
 
-Include a Div where you want the gallery (Steps 5 - 7)
-------------
+Include a Div where you want the gallery (Steps 5 - 7):
+------------------------------------------------------
 <div id="fb_gallery" app_id="" page_id=""></div>
 
 Notes:
----------
+------
  * You get an app_id after you create a new app
  * You can find the page id by visiting that page in your browser.
    * https://www.facebook.com/pages/Club-Billboards/104821622923594

@@ -35,9 +35,9 @@ JavaScript Files to be included (Steps 2 - 4):
 
 Include a Div where you want the gallery (Steps 5 - 7):
 ------------------------------------------------------
-<tt>
+<nowiki>
 	<div id="fb_gallery" app_id="" page_id=""></div>
-</tt>
+</nowiki>
 
 Notes:
 ------

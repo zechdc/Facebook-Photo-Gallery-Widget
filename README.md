@@ -17,7 +17,7 @@ How to Use:
 
 JavaScript Files to be included (Steps 2 - 4):
 ----------------------------------------------
-<pre>
+<tt>
 	<!-- Load jQuery -->
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
 
@@ -31,13 +31,13 @@ JavaScript Files to be included (Steps 2 - 4):
 
 	<!-- Load Facebook Photo Gallery Widget -->
 	<script src="/js/fb_gallery.js"></script>
-</pre>
+</tt>
 
 Include a Div where you want the gallery (Steps 5 - 7):
 ------------------------------------------------------
-<pre>
+<tt>
 	<div id="fb_gallery" app_id="" page_id=""></div>
-</pre>
+</tt>
 
 Notes:
 ------

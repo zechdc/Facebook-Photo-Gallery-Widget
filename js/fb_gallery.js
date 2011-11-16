@@ -62,6 +62,8 @@ $(document).ready(function()
 	//get all photos for an album and hide the album view
 	function show_albums_photos (album_id)
 	{
+		$('#loading_gallery').show();
+
 		$('#albums').hide();
 
 		//check to see if the album has already been loaded. Unhide or create it
@@ -107,6 +109,9 @@ $(document).ready(function()
 	    			//add lightbox functionality
 	    			$('#album_' + album_id + ' .lightbox').lightBox();
 				});
+
+				//after .each loop hide loading gif
+				$('#loading_gallery').hide();
 			});
 		}
 	}

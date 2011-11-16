@@ -1,6 +1,6 @@
 Description:
 ============
-This JS script grabs all albums and displays them. When you click on an album it shows the photos in that album. If you click on a photo it brings up a lightbox. It is 100% jQuery. 
+This JS script grabs all albums and displays them. When you click on an album it shows the photos in that album. If you click on a photo it brings up a lightbox. It is 100% jQuery. See notes at the bottom for more details.
 
 How to Use:
 -----------
@@ -35,9 +35,9 @@ JavaScript Files to be included (Steps 2 - 4):
 
 Include a Div where you want the gallery (Steps 5 - 7):
 ------------------------------------------------------
-<nowiki>
-	<div id="fb_gallery" app_id="" page_id=""></div>
-</nowiki>
+
+    <div id="fb_gallery" app_id="" page_id=""></div>
+
 
 Notes:
 ------

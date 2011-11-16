@@ -4,6 +4,7 @@ This JS script grabs all albums and displays them. When you click on an album it
 
 How to Use:
 -----------
+See index.html for simple working example.
 <ol>
 	<li>Create new facebook app. (https://developers.facebook.com/apps)</li>
 	<li>Make sure you include the lightbox js file and css file</li>
@@ -17,21 +18,20 @@ How to Use:
 
 JavaScript Files to be included (Steps 2 - 4):
 ----------------------------------------------
-<tt>
-	<!-- Load jQuery -->
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
 
-	<!-- Load LightBox - Used by Facebook Photo Gallery Widget -->
-	<script type="text/javascript" src="js/jquery.lightbox-0.5.js"></script>
+    <!-- Load jQuery -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
 
-	<link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" media="screen" />
+    <!-- Load LightBox - Used by Facebook Photo Gallery Widget -->
+    <script type="text/javascript" src="js/jquery.lightbox-0.5.js"></script>
 
-	<!-- Load Facebook JS SDK - Used by Facebook Photo Gallery Widget -->
-	<script src="http://connect.facebook.net/en_US/all.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" media="screen" />
 
-	<!-- Load Facebook Photo Gallery Widget -->
-	<script src="/js/fb_gallery.js"></script>
-</tt>
+    <!-- Load Facebook JS SDK - Used by Facebook Photo Gallery Widget -->
+    <script src="http://connect.facebook.net/en_US/all.js"></script>
+
+    <!-- Load Facebook Photo Gallery Widget -->
+    <script src="/js/fb_gallery.js"></script>
 
 Include a Div where you want the gallery (Steps 5 - 7):
 ------------------------------------------------------

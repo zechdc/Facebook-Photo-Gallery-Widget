@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title>Facebook Photo Gallery Widget</title>
+
+	<!-- Load jQuery -->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+	<!-- Load LightBox - Used by Facebook Photo Gallery Widget -->
+	<script type="text/javascript" src="js/jquery.lightbox-0.5.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" media="screen" />
+    <!-- Load Facebook JS SDK - Used by Facebook Photo Gallery Widget -->
+    <script src="http://connect.facebook.net/en_US/all.js"></script>
+    <!-- Load Facebook Photo Gallery Widget -->
+    <script src="/js/fb_gallery.js"></script>
+
+</head>
+<body>
+
+	<div id="wrapper">
+
+		<div id="content">
+			<!-- 
+			How to Use:
+			1) Create new facebook app. (https://developers.facebook.com/apps)
+			2) Make sure you include the lightbox js file and css file
+			3) Make sure you include the facebook JS SDK file
+			4) Make sure you include the Facebook_Photo_Gallery_Widget JS file
+			5) Include a div or any other html tag with the id "fb_gallery"
+			6) Set custom attribute app_id=""
+			7) Set custom attribute page_id=""
+
+			Notes:
+			- You get an app_id after you create a new app
+			- You can find the page id by visiting that page in your browser.
+			  - https://www.facebook.com/pages/Club-Billboards/104821622923594
+			  - In the url above, the number at the end it the page_id. You can only use public pages, not peoples profiles.
+			- There is no CSS applied currently other than what the lightbox has applied.
+			-->
+			<div id="fb_gallery" app_id="218767491530282" page_id="104821622923594"></div>
+		</div>
+	</div>
+
+</body>
+</html>

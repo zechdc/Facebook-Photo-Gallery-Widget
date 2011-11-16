@@ -2,6 +2,10 @@ Description:
 ============
 This JS script grabs all albums and displays them. When you click on an album it shows the photos in that album. If you click on a photo it brings up a lightbox. It is 100% jQuery. See notes at the bottom for more details.
 
+Live Example:
+-------------
+<a href="http://billboardsclub.com/photos.php">DEMO</a>
+
 How to Use:
 -----------
 See index.html for simple working example.
